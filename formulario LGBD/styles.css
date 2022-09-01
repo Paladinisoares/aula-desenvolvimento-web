@@ -1,0 +1,84 @@
+#container {
+    background-color: lightgray;
+    border-radius: 2%;
+    width: 33%;
+    height: 420px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.lab-text {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    height: 25px;
+}
+
+sup{
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#inp-check{
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+#lab-check{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#check-um, #check-dois {
+    flex-direction: row;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button{
+    margin-left: 8px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 100px;
+}
