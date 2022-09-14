@@ -1,0 +1,68 @@
+header img {
+    height: 100px;
+    width: 180px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu-inter {
+    color: red;
+}
+
+#menu-flamengo {
+    color: rgb(105, 20, 20);
+}
+
+#menu-palmeiras {
+    color: green;
+}
+
+header {
+    text-align: center; 
+}
+
+header h2 {
+    display: inline-flex;
+    margin-inline: 25px;
+}
+
+main{
+    margin-top: 60px;
+}
+
+article{
+    width: 95%;
+}
+
+article img{
+    float: right;
+    width: 55%;
+    margin: 0 0 40px 30px;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.39);
+    height: 400px;
+}
+
+#internacional h1{
+    color: red;
+    font-size: 35px;
+    text-align: center;
+}
+
+#flamengo h1{
+    color: rgb(105, 20, 20);
+    font-size: 35px;
+    text-align: center;
+}
+
+#palmeiras h1{
+    color: green;
+    font-size: 35px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
